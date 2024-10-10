@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <input type="text" id="city" placeholder="Enter City Name..." />
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="wheather">
+        <h3 id="City-Name"></h3>
+        <p id="temperature"></p>
+        <p id="status"></p>
+        <p id="min-max-temp"></p>
+      </div>
+      <div class="moreInfo">
+        <div class="box">
+          <i class="fa-solid fa-temperature-empty"></i>
+          <h4 class="text">Humidity</h4>
+          <p id="humidity"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-wind"></i>
+          <h4 class="text">Wind-Speed</h4>
+          <p id="wind-speed"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-gauge-simple"></i>
+          <h4 class="text">Pressure</h4>
+          <p id="pressure"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-water"></i>
+          <h4 class="text">Sea_Level</h4>
+          <p id="sea-level"></p>
+        </div>
+        <div class="box">
+          <i class="fa-regular fa-eye"></i>
+          <h4 class="text">Visibility</h4>
+          <p id="visibility"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-temperature-full"></i>
+          <h4 class="text">Feels_like</h4>
+          <p id="feels-like"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-cloud"></i>
+          <h4 class="text">Clouds</h4>
+          <p id="clouds"></p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-arrow-down-wide-short"></i>
+          <h4 class="text">Gr_level</h4>
+          <p id="gr-level"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

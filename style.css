@@ -1,0 +1,113 @@
+.container{
+    width: 500px;
+    max-height: 550px;
+    background-image: url(Bg-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px black;
+}
+.search{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* padding: auto; */
+}
+.search #city{
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 5px 5px 15px black;
+    
+}
+.search #btn{
+    width: 25px;
+    height: 27px;
+    text-align: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 5px 5px 15px black;
+    
+}
+#btn:hover{
+    background-color: rgb(79, 80, 80);
+    color: white;
+}
+
+.wheather{
+    /* background-color: azure; */
+    width: 400px;
+    max-height: auto;
+    margin: 10px auto;
+    box-shadow: 5px 5px 15px black;
+}
+#City-Name{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: #fff;
+}
+#temperature{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    /* margin: auto; */
+    margin-top: -30px;
+}
+#status{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -80px;
+}
+#min-max-temp{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.moreInfo{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+.box{
+    width: 80px;
+    text-align: center;
+    margin: auto;
+    border: none;   
+    border-radius: 5px;
+    display: inline;
+    align-items: center;
+}
+
+.box i{
+    font-size: 35px;
+    color: blue;
+}
+.box p{
+    font-size: 15px;
+    margin: auto;
+}
+.text{
+    font-size: 10px;
+    margin: 2px;
+}
